@@ -1,0 +1,38 @@
+svg{
+    height: 400px;
+    width: 400px;
+}
+.timer {
+    position:relative;
+    display: inline-block;
+}
+html{
+    font-family: serif;
+}
+.timer input{
+    display: block;
+    border: none;
+    width: 240px;
+    font-size: 90px;
+    text-align: center;
+}
+.timer button{
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+}
+.timer input:focus{
+    outline: none;
+}
+
+.control{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
